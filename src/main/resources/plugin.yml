@@ -1,0 +1,23 @@
+main: org.maowtm.mc.warden_warn.WardenWarn
+api-version: 1.19
+name: WardenWarn
+version: 0.1
+description: Shows a player's warden warning level
+
+depend:
+  - NBTAPI
+
+commands:
+  getwardenlevel:
+    description: Get a player's warden warning level
+    permission: warden_warn.get_warden_level
+    usage: "/getwardenlevel <player>"
+  clearwardenlevel:
+    description: Reset a player's warden warning state
+    permission: warden_warn.clear_warn_level
+    usage: "/clearwardenlevel <player>"
+
+permissions:
+  warden_warn.*: { }
+  warden_warn.clear_warn_level: { }
+  warden_warn.get_warn_level: { }
