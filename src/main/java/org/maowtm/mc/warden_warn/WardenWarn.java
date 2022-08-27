@@ -2,7 +2,6 @@ package org.maowtm.mc.warden_warn;
 
 import de.tr7zw.nbtapi.NBTEntity;
 import net.md_5.bungee.api.ChatMessageType;
-import net.md_5.bungee.api.chat.BaseComponent;
 import net.md_5.bungee.api.chat.ComponentBuilder;
 import org.bukkit.ChatColor;
 import org.bukkit.block.Biome;
